@@ -1,0 +1,66 @@
+section.scaffold-section
+  header.scaffold-header
+    h2 Default Results
+  div.search-example
+    div.search-input
+      span.search-input-icon.espn
+      span.search-input-text esp
+      span.search-input-autocomplete n.go.com
+      span.search-input-annotate Go to Site
+    div.search-results
+      div#top-hits.result-region
+        ol
+          li.result.selected
+            span(class='icon icon-bookmark')
+            span(class='icon favicon espn')
+            span.result-copy ESPN: The Worldwide Leader in Sports&nbsp;&mdash;&nbsp;
+              span.result-url espn.go.com
+      div#search-suggestions.result-region
+        h2.result-group-title Search Suggestions
+        ol
+          li.result
+            span(class='icon icon-null')
+            span(class='icon icon-history')
+            span.result-copy
+              | espn: dallas
+          li.result
+            span(class='icon icon-null')
+            span(class='icon icon-search')
+            span.result-copy
+              | esp
+          li.result
+            span(class='icon icon-null')
+            span(class='icon icon-search')
+            span.result-copy
+              | espn videos
+          li.result
+            span(class='icon icon-null')
+            span(class='icon icon-search')
+            span.result-copy
+              | espn deportes
+      div#autocomplete-results.result-region
+        h2.result-group-title History &amp; Bookmarks
+        ol
+          li.result
+            span(class='icon icon-bookmark')
+            span(class='icon favicon espn')
+            span.result-copy NBA - National Basketball Association Teams, Scores, Stats, News, Standings, Rumors - ESPN&nbsp;&mdash;&nbsp;
+              span.result-url http://espn.go.com/nba/
+          li.result
+            span(class='icon')
+            span(class='icon favicon espn')
+            span.result-copy DALLAS sports, Dallas-Fort Worth sports news - ESPN Dallas&nbsp;&mdash;&nbsp;
+              span.result-url http://espn.go.com/dallas/
+          li.result
+            span(class='icon')
+            span(class='icon favicon espn')
+            span.result-copy Dallas Cowboys - ESPN&nbsp;&mdash;&nbsp;
+              span.result-url http://espn.go.com/blog/dallas/cowboys/
+          li.result
+            span(class='icon icon-bookmark')
+            span(class='icon favicon deadspin')
+            span.result-copy Why ESPN Fired Bill Simmons&nbsp;&mdash;&nbsp;
+              span.result-url http://deadspin.com/why-espn-fired-bill-simmons-1703103609
+  div.scaffold-comments
+    p Under most circumstances, the user should see UI in this pattern. Note, this changes awesomebar behavior by auto-highlighting the top hit.
+

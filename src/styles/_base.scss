@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  user-select: none;
+}
+
+body {
+  font-family: message-box, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#185c9e,#4acea4);
+  background-attachment: fixed;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: "Fira Sans", message-box;
+  font-weight: 200;
+  margin: 24px 0;
+}

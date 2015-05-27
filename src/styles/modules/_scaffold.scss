@@ -1,0 +1,22 @@
+.scaffold-section {
+  margin: 24px 0;
+}
+
+.scaffold-header {
+  color: $white;
+  font-family: "Fira Sans", message-box;
+  
+  h2 {
+    font-weight: 200;
+    font-size: 32px;
+    margin: 0 0 24px 0;
+  }
+} 
+
+.scaffold-comments {
+  color: $white;
+  font-family: "Fira Sans", message-box;
+  width: 60%;
+  margin: 0 0 0 40%;
+  text-align: right;
+}
